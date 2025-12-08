@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+:root {
+	--primary: #E565A9;
+	--secondary: #E387B8;
+	--bg-dark: #080808;
+	--bg-light: #111111;
+	--header: #FFFFFF;
+	--text: #FFE2F6;
+}
+
+body {
+	font-family: 'Pixelify Sans', 'sans-serif';
+	background-color: var(--bg-dark);
+}
+
+header {
+	color: var(--header);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 2px solid var(--primary)
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 0px 30px 0px;
+	gap: 30px;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: var(--text);
+}
+
+.head-logo {
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+	padding: 20px 0px 20px 0px;
+}
+
+.link {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	gap: 20px;
+	padding: 15px 15px 15px 50px;
+	border: 2px solid var(--primary);
+	background-color: var(--bg-light);
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+/* Tablet and small device card width */
+@media screen and (min-width: 701px) and (max-width: 999px) {
+    .link {
+        width: 75%;
+    }
+}
+
+/* Mobile card width */
+@media screen and (max-width: 700px) {
+    main {
+        padding: 30px;
+    }
+
+    .link {
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+.card-link {
+    color: black;
+}
+
+.card-icon {
+    width: 75px;
+    height: 75px;
+}
+
+.link:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 22px -3px var(--primary);
+    transition: 0.3s;
+}
