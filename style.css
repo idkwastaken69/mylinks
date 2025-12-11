@@ -5,7 +5,6 @@
 	--secondary: #E387B8;
 	--bg-dark: #080808;
 	--bg-light: #111111;
-	--header: #FFFFFF;
 	--text: #FFE2F6;
 }
 
@@ -15,7 +14,7 @@ body {
 }
 
 header {
-	color: var(--header);
+	color: var(--text);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
