@@ -1,5 +1,4 @@
 # mylinks
-![GitHub last commit](https://img.shields.io/github/last-commit/idkwastaken69/mylinks)
 
 Linktree is boring
 
