@@ -15,6 +15,7 @@ This program is free software licenced under the 2-Clause-BSD license, please re
 :root {
 	--primary: #EA76CB;
 	--bg-dark: #181825;
+	--bg-light: #1E1E2E;
 	--text: #E9C8F8;
 }
 
@@ -119,6 +120,5 @@ a {
 
 .link:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 22px -3px var(--primary);
-    transition: 0.3s;
+    background-color: var(--bg-light);
 }
