@@ -13,10 +13,10 @@ This program is free software licenced under the 2-Clause-BSD license, please re
 }
 
 :root {
-	--primary: #E565A9;
+	--primary: #EA76CB;
 	--secondary: #E387B8;
-	--bg-dark: #080808;
-	--text: #FFE2F6;
+	--bg-dark: #181825;
+	--text: #E9C8F8;
 }
 
 body {
